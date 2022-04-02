@@ -1,0 +1,58 @@
+body{
+    background-color: #010011;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23110218' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23190527' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%231e0737' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23230548' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%2328005A' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    box-sizing: border-box;
+    width: 500px;
+    height: 550px;
+    padding: 20px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 2px purple;
+    color: white;
+    text-align: center;
+}
+#password{
+    padding: 20px;
+    user-select: none;
+    height: 20px;
+    width: 90%;
+    border-radius: 6px;
+    font-size: 22px;
+    text-align: center;
+}
+#button{
+    font-size: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+#button:hover{
+    color: purple;
+    box-shadow: 1px 1px 10px 1px purple;
+    cursor: pointer;
+}
+#length{
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+.hiddenfirst{
+    color: transparent;
+    background-color: transparent;
+}
+.hiddenfirst input{
+    border: transparent;
+    background-color: transparent;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Password Generator</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="stylesheet.css"> 
+    </head>
+    <body>
+        <div class="box">
+            <h1>Password<br>Generator</h1>
+            <input type="text" name="password" placeholder="Create password" id="password" readonly/>
+             <br><br><br><br>
+             <a id="button" class="btn1"onclick="genPassword()"><i class="fa-solid fa-wand-magic-sparkles"></i></a>
+             <a id="button" class="btn2" onclick="copyPassword()"><i class="fa-solid fa-copy"></i></a>
+             <a id="button" class="btn2" onclick="settingsButton()"><i class="fa-solid fa-gear"></i></a>
+             <br><br><br>
+            <div class="hiddenfirst" id="a">
+                <h3>Length:</h3>
+                <input type="number" name="length" id="length" value="9">
+             </div>
+             <br>
+             <br>
+             <p>Created by <a href="https://ea29.netlify.app/">Emmanuel A</a>.</p>
+        </div>
+        <script src="function.js"></script>
+        <script src="https://kit.fontawesome.com/b94eb36c89.js" crossorigin="anonymous"></script> 
+    </body>
+</html>
+<!--<i class="fa-solid fa-wand-magic-sparkles"></i>-->
